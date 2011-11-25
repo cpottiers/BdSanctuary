@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="TitleFont" parent="@android:style/TextAppearance.Medium">
+		<item name="android:textColor">@color/titleText</item>
+		<item name="android:typeface">normal</item>
+		<item name="android:textStyle">normal</item>
+	</style>
+	<style name="SectionFont" parent="@android:style/TextAppearance.Large">
+		<item name="android:textColor">@color/sectionText</item>
+		<item name="android:typeface">normal</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	<style name="SerieItemFont" parent="@android:style/TextAppearance.Medium">
+		<item name="android:textColor">@color/uptodateItemText</item>
+		<item name="android:typeface">normal</item>
+		<item name="android:textStyle">normal</item>
+	</style>
+	<style name="TomeItemFont" parent="@android:style/TextAppearance.Small">
+		<item name="android:textColor">@color/tomeItemText</item>
+		<item name="android:typeface">normal</item>
+		<item name="android:textStyle">normal</item>
+	</style>
+</resources>

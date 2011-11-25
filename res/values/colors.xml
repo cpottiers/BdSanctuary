@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bgColor">#FFF1CB</color>
+    <color name="black">#000000</color>
+    <color name="sectionBg">#FFF1CB</color>
+    <color name="sectionText">#E36F0A</color>
+    <color name="uptodateItemText">#1F537B</color>
+    <color name="missingItemText">#E36F0A</color>
+    <color name="tomeItemText">#000000</color>
+    <color name="titleText">#000000</color>
+</resources>

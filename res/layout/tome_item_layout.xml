@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:padding="3sp" android:orientation="vertical" android:gravity="center_horizontal">
+	<ImageView android:id="@+id/tome_icon" android:src="@drawable/icon"
+		android:scaleType="centerCrop" android:layout_height="100dp"
+		android:layout_width="70dp" android:layout_gravity="center" />
+	<TextView android:id="@+id/tome_name" android:textAppearance="@style/TomeItemFont"
+		android:paddingLeft="16dp" android:paddingRight="16dp"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

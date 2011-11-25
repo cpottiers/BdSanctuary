@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="APPLICATION_NAME">Bd Sanctuary</string>
+
+    <string name="MS_ROOT">http://www.bd-sanctuary.com</string>
+    <string name="MS_ROOT_MOBILE">http://www.bd-sanctuary.com/mobile</string>
+    
+    <string name="MS_LOGIN">/forum/ucp.php?mode=login</string>
+    <string name="MS_LOGIN_AUTOLOGIN">autologin</string>
+    <string name="MS_LOGIN_AUTOLOGIN_VALUE">on</string>
+    <string name="MS_LOGIN_LOGIN">login</string>
+    <string name="MS_LOGIN_LOGIN_VALUE">se connecter</string>
+    <string name="MS_LOGIN_CONNEXION">connexion</string>
+    <string name="MS_LOGIN_CONNEXION_VALUE">1</string>
+    <string name="MS_LOGIN_PASSWORD">password</string>
+    <string name="MS_LOGIN_USERNAME">username</string>
+    <string name="MS_LOGIN_REDIRECT">redirect</string>
+    <string name="MS_LOGIN_REDIRECT_VALUE">../member.php</string>
+    <!-- string name="MS_LOGIN_COLLECTION_PATTERN">\\/collection\\.php\\?id\\=%1$s\\&amp;page\\=liste</string>
+    <string name="MS_LOGIN_COLLECTION_PATTERN">/collection\\.php\\?id=%1$s&amp;page=liste\"&gt;Rentrer ma collection !&lt;/a&gt;&lt;/div&gt;</string-->
+    <string name="MS_LOGIN_COLLECTION_PATTERN">&lt;a href=\"/collection\\.php\\?id=%1$s\"&gt;Rentrer sa collection&lt;/a&gt;</string>
+
+    <!-- string name="MS_COLLECTION">/collection/include/excel.php?id=%1$s&amp;page=liste&amp;filtre_support=livres&amp;type_collec=ms&amp;type_liste=</string-->
+    <string name="MS_COLLECTION">/collection.php?id=%1$s&amp;page=liste&amp;filtre_support=livres&amp;type_collec=bds</string>
+    <string name="MS_EDITION">/collection.php?id=%1$s&amp;page=liste_volumes&amp;id_edition=%2$s&amp;type_collec=</string>
+    <string name="MS_MISSING_CONNEXION">/forum/ucp.php?mode=login</string>
+    <string name="MS_MISSING_COLLECTION">/collection.php?id=%1$s&amp;page=liste_manquants&amp;type_collec=bds</string>
+    
+    <string name="Error_Alert_Title">Erreur</string>
+    <string name="Error_Alert_OK_Btn">OK</string>
+    <string name="Error_Alert_Cancel_Btn">Annuler</string>
+    <string name="Error_Alert_Quit_Btn">Quitter</string>
+    <string name="Error_Alert_Login_Needed">Un compte Bd Sanctuary est nécessaire.</string>
+    
+    <string name="UserDetails_Login">Se connecter</string>
+    <string name="UserDetails_Username">Login</string>
+    <string name="UserDetails_Password">Mdp</string>
+    <string name="First_Sync_Alert">\tAttention, la première synchronisation peut prendre plusieurs minutes selon la taille de votre collection et votre type de connection.\n\tExemple : 10 minutes pour une collection de 650 tomes en Wifi (8Mo de stockés).\n\n\tUne fois cette synchronisation faite, les suivantes seront très rapides.</string>
+    
+    <string name="Collection_Empty">Collection vide</string>
+    <string name="Missing_Empty">Votre collection est à jour</string>
+    
+    <string name="Collection_Title">Votre collection :</string>
+    <string name="Shopping_Title">Vos volumes manquants :</string>
+    
+    <string name="Error_Alert_Server">Impossible de joindre le serveur, vérifiez votre connection réseau.</string>
+    <string name="Error_Alert_IdUnknown">Impossible de se connecter, vérifiez vos paramètres d\'identification.</string>
+    <string name="Error_Alert_Synchro">échec de la synchronisation.</string>
+    <string name="Error_Alert_SynchroSerie">échec de la synchronisation de la série %1$s.</string>
+    <string name="Error_Alert_InsertionSerie">échec de l\'insertion en base de la série %1$s.</string>
+    
+    <string name="Sync_Alert_Title">Synchronisation</string>
+    <string name="Sync_Alert_Connect">Authentification en cours...</string>
+    <string name="Sync_Alert_Series">Synchronisation des séries...</string>
+    <string name="Sync_Alert_Tomes">Synchronisation des tomes...</string>
+    
+    <string name="Legend_Alert_Title">Légende</string>
+    <string name="Legend_Alert_Serie_suivie">Série suivie</string>
+    <string name="Legend_Alert_Serie_complete">Série complète</string>
+    <string name="Legend_Alert_Serie_non_suivie">Série non suivie</string>
+    <string name="Legend_Alert_Serie_interrompue">Série interrompue</string>
+    
+    <string name="Open_Url_Alert">Vous allez être redirigé vers le site www.bd-sanctuary.com</string>
+
+    <string name="Tome_Title_Pattern">Tome #%1$02d</string>
+    <string name="Menu_Refresh">Rafraîchir</string>
+    <string name="Menu_ShoppingList">Volumes manquants</string>
+    <string name="Menu_List">Collection</string>
+    <string name="Menu_Legend">Légende</string>
+    <string name="Menu_Quit">Quitter</string>
+</resources>

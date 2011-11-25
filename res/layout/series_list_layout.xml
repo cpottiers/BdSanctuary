@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:background="@color/bgColor"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_marginTop="10dip" android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:gravity="center_vertical">
+		<FrameLayout android:layout_width="32dip"
+			android:layout_height="32dip" android:layout_marginLeft="2dip"
+			android:visibility="invisible" />
+		<ImageView android:layout_width="match_parent"
+			android:layout_weight="1" android:src="@drawable/logo_bds"
+			android:scaleType="centerInside" android:layout_height="48dip"
+			android:padding="0dip" />
+		<ProgressBar android:id="@+id/progress"
+			android:layout_marginRight="2dip" android:layout_width="32dip"
+			android:layout_height="32dip" android:visibility="invisible" />
+	</LinearLayout>
+
+	<TextView android:id="@+id/title" android:text="@string/Collection_Title" android:textAppearance="@style/TitleFont"
+		android:paddingLeft="8dp" android:paddingRight="8dp"
+		android:layout_width="match_parent" android:layout_height="wrap_content" />
+	<FrameLayout android:layout_width="fill_parent"
+		android:layout_margin="10dip" android:layout_height="0dp"
+		android:layout_weight="1">
+
+		<ListView android:id="@android:id/list" android:layout_width="match_parent"
+			android:layout_height="match_parent" android:fadingEdge="none"
+			android:cacheColorHint="#00000000" />
+
+		<ViewStub android:id="@android:id/empty"
+			android:layout_width="match_parent" android:layout_height="match_parent"
+			android:layout_gravity="center" android:layout="@layout/series_empty_layout" />
+
+	</FrameLayout>
+
+</LinearLayout>
